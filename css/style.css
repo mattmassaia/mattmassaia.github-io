@@ -1,0 +1,94 @@
+@font-face { 
+font-family: OstrichSans-Light;
+src: url("fonts/OstrichSans-Light.otf"); 
+}
+
+@font-face { 
+font-family: Streetwear;
+src: url("fonts/Streetwear.otf"); 
+}
+
+
+body {
+	background: #785072;
+}
+
+h1 {
+	font-family: Streetwear;
+	color:#FCF7C5;
+	font-size: 50px;
+	text-shadow: 2px 2px #00A4A2;
+
+}
+
+h4 {
+	font-family: OstrichSans-Light;
+	color:#FCF7C5;
+	font-weight: 800;
+	font-size: 40px;
+	margin-top: 1px;
+}
+h5 {
+	font-family: OstrichSans-Light;
+	color:#EBDE16;
+	font-weight: 100;
+	margin-top:0;
+	font-size: 30px;
+}
+h6 {
+	font-family: OstrichSans-Light;
+	color:#EBDE16;
+	font-weight: 100;
+	font-size: 20px;
+	text-align: center;
+}
+
+header {
+	text-align: center;
+	margin-top: 50px;
+}
+
+button {
+	margin-left:0;
+	margin-right: 0;
+	width: 200px;
+	height: 80px;
+	margin-top:10px;
+	border-radius: 40px;
+	font-family: Streetwear;
+	font-size: 20px;
+	color: #8AE4FF;
+	background: #00A4A2;
+	border: none;
+   outline: 0;
+  
+
+   
+
+}
+
+button:active {
+	color:#FCF7C5;
+	background:#FFC3EC;
+	   outline: 0;
+
+}
+.soundboard {
+	margin-left:auto;
+	margin-right: auto;
+	width: 100%;
+	text-align: center;
+}
+footer {
+	font-family: OstrichSans-Light;
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	font-size: 20px;
+	font-weight: 900;
+	color: #FCF7C5;
+	bottom:0;
+}
+footer span {
+	font-weight: 500;
+}
